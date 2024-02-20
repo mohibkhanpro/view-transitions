@@ -39,9 +39,21 @@ import { imageData } from "../lib/imagedata";
       </div>
       <div class="rounded-lg bg-zinc-900 flex-1 mx-auto overflow-y-auto">
         <slot />
+
+        <div
+          class="columns-1 gap-4 sm:columns-2 xl:columns-3 2xl:columns-4 p-6"
+        >
+          <EventPhoto />
+          <EventPhoto />
+          <EventPhoto />
+          <EventPhoto />
+          <EventPhoto />
+          <EventPhoto />
+        </div>
       </div>
     </div>
-    <div class="columns-1 gap-4 sm:columns-2 xl:columns-3 2xl:columns-4 p-2">
+
+    <!-- <div class="columns-1 gap-4 sm:columns-2 xl:columns-3 2xl:columns-4 p-2">
       <EventSide />
       <EventPhoto />
       <EventPhoto />
@@ -59,7 +71,7 @@ import { imageData } from "../lib/imagedata";
       <EventPhoto />
 
       <EventSide />
-    </div>
+    </div> -->
 
     <div
       id="not-support"
